@@ -55,7 +55,7 @@ function LoginPage({ onNavigate }) {
 
         {/* 🔙 BACK BUTTON */}
         <button
-          onClick={() => onNavigate('home')}
+          onClick={() => onNavigate('LoginStart')}
           style={{
             background: '#dc6409',
             color: '#ffffff',
