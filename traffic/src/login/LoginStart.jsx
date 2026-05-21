@@ -7,9 +7,7 @@ function LoginStart({ onNavigate }) {
     
     <div style={container}>
       <div style={box}>
-         <button style={{color:"white",backgroundColor: "#dc6409",marginbottom:"1000px"}} onClick={() => onNavigate('home')}>
-          ⬅ Back
-        </button>
+        
         <h2 style={title}>Login As</h2>
 
      <button style={btn} onClick={() => onNavigate('loginpage')}>
