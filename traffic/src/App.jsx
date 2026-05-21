@@ -15,7 +15,7 @@ import LoginPage from './login/user/LoginPage';
 import SignPage from './login/user/SignPage';
 import Privacy from './login/user/Privacy';
 import Terms from './login/user/Terms';
-
+import Admin from './login/administaror/Admin';
 import Technology from './technology/Technology';
 import Linkdin from './footer/Linkdin';
 import AIPredictionPage from './cards/AIPredictionPage';
@@ -54,7 +54,7 @@ export default function App() {
       {/* LOGIN FLOW */}
       {page === 'LoginStart' && <LoginStart onNavigate={setPage} />}
       {page === 'loginpage' && <LoginPage onNavigate={setPage} />}
-
+       {page === 'admin' && <Admin onNavigate={setPage}/>}
       {/* SIGNUP FLOW */}
       {page === 'signup' && <SignPage onNavigate={setPage} />}
       {page === 'terms' && <Terms onNavigate={setPage} />}
