@@ -150,7 +150,7 @@ function Admin({ onNavigate }) {
 
           {/* SIGN IN BUTTON */}
           <button
-            onClick={() => alert("Login Successful")}
+            onClick={() => onNavigate()}
             style={{
               width: "100%",
               marginTop: "25px",
