@@ -177,9 +177,7 @@ function LoginPage({ onNavigate }) {
 
           {/* 🔵 SIGN IN */}
           <button
-            onClick={() =>
-              alert('Login Successful')
-            }
+            onClick={() => onNavigate()}
             style={{
               width: '100%',
               marginTop: '20px',
@@ -192,7 +190,7 @@ function LoginPage({ onNavigate }) {
               cursor: 'pointer',
             }}
           >
-            Sign In
+            Log In
           </button>
 
           {/* ✅ OR */}
